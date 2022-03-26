@@ -34,6 +34,7 @@
 		2A948AB627E0FC97001EB11E /* instagram_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A948AA727E0FC97001EB11E /* instagram_logo.png */; };
 		2A948AB827E19063001EB11E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A948AB727E19063001EB11E /* CameraViewController.swift */; };
 		2A948ABA27E19D83001EB11E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A948AB927E19D83001EB11E /* PostCell.swift */; };
+		2AAE440827EF7F0600C47E74 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE440727EF7F0600C47E74 /* CommentCell.swift */; };
 		749318F0764504891090329A /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3775DE3EAC382488FD66A300 /* Pods_Parstagram_ParstagramUITests.framework */; };
 		A1D8BEFB97122DB04ED0ACA1 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1811F834F382B594D07AEB82 /* Pods_ParstagramTests.framework */; };
 		CD25F14811FAADD22956532C /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970EA48EBA7E0CEA7B8D41F0 /* Pods_Parstagram.framework */; };
@@ -90,6 +91,7 @@
 		2A948AA727E0FC97001EB11E /* instagram_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram_logo.png; sourceTree = "<group>"; };
 		2A948AB727E19063001EB11E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2A948AB927E19D83001EB11E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2AAE440727EF7F0600C47E74 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		3775DE3EAC382488FD66A300 /* Pods_Parstagram_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFB8AD02F0D10D1B3D4D2D9 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		66E5FD649F2E96EA2A578770 /* Pods-Parstagram-ParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram-ParstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				2A948A9127E0F211001EB11E /* LoginViewController.swift */,
 				2A948A9327E0F21E001EB11E /* FeedViewController.swift */,
 				2A948AB727E19063001EB11E /* CameraViewController.swift */,
+				2AAE440727EF7F0600C47E74 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 				2A948A9427E0F21E001EB11E /* FeedViewController.swift in Sources */,
 				2A948A6427E0E774001EB11E /* SceneDelegate.swift in Sources */,
 				2A948ABA27E19D83001EB11E /* PostCell.swift in Sources */,
+				2AAE440827EF7F0600C47E74 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +688,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -713,6 +718,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
